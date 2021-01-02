@@ -1,5 +1,5 @@
 # AnaePKModels 
-## by PKPDTools for R
+## for R
 
 ### install in R: devtools::install_github("TWS001/AnaePKModels")
 
