@@ -12,7 +12,6 @@ Authors@R:
            email = "info@pkpdtools.com"))
 Description: PKPD models for anesthetics. Each model is implemented as a function. The function returns always a vector with V1,V2,V3,Cl1,Cl2,Cl3,ke0 - For two compartment model the V3 (and Cl3) would be 0. If no ke0 is available, ke0 is NA. There is a PKPDTools function tpeak2ke= for calculation of a ke0 from tpeak.
 License: CC0
-Imports: PKPDTools
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.0
