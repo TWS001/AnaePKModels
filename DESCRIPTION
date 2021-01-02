@@ -1,6 +1,6 @@
 Package: AnaePKModels
 Title: PKPD models of anesthetics
-Version: 0.0.1
+Version: 0.0.2
 Authors@R:
     c(person(given = "Thomas",
            family = "Schnider",
