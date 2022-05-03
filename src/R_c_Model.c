@@ -22,7 +22,7 @@ PropSchnider(
 	double V2 = 18.9 - (0.391*(*Age-53));
 	double V3 = 238;
 
-    double Cl1= 1.89+((*Height-177)*0.0264)+ ((*Weight-77)*0.0456)+((LBM-59)*-0.0681);
+    double Cl1= 1.89+ ((*Height-177)*0.0264) + ((*Weight-77)*0.0456) - ((LBM-59)*0.0681);
 	double Cl2 = 1.29 +((*Age-53)*-0.024);
 	double Cl3 = 0.836;
 	ArrParameter[0]= V1;
@@ -48,7 +48,7 @@ PropSchnider2(
 	double V2 = 18.9 - (0.391*(*Age-53));
 	double V3 = 238;
 
-    double Cl1= 1.89+((*Height-177)*0.0264)+ ((*Weight-77)*0.0456)+((*lbm-59)*-0.0681);
+    double Cl1= 1.89+((*Height-177)*0.0264)+ ((*Weight-77)*0.0456)-((*lbm-59)*0.0681);
 	double Cl2 = 1.29 +((*Age-53)*-0.024);
 	double Cl3 = 0.836;
 	ArrParameter[0]= V1;
